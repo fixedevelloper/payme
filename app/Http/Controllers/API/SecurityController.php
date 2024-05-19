@@ -65,6 +65,7 @@ class SecurityController extends BaseController
             $driver->phone = $request->phone;
             $driver->last_name = $request->last_name;
             $driver->email = $request->email;
+            $driver->currency_id = 37;
             if ($request->has('date_born')) {
                 $driver->date_born = $request->date_born;
             }
