@@ -23,7 +23,7 @@ class CountrySeeder extends Seeder
                     'phonecode' => '93',
                     'status' => 1,
                     'currency_id'=>null,
-                    'flag'=>"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1eb.svg",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -36,7 +36,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '8',
                     'phonecode' => '355',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f1.svg",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -62,7 +62,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '16',
                     'phonecode' => '1684',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f8.svg",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -87,7 +87,8 @@ class CountrySeeder extends Seeder
                     'iso3' => 'AGO',
                     'numcode' => '24',
                     'phonecode' => '244',
-                    'status' => 1,'currency_id'=>null,
+                    'status' => 1,
+                    'currency_id'=>null,
                     'flag'=>"",
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
