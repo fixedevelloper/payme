@@ -19,7 +19,6 @@ return new class extends Migration
             $table->integer('numcode')->nullable();
             $table->integer('phonecode');
             $table->boolean('status')->default(false);
-
             $table->foreignId('currency_id')->nullable()->constrained()->nullOnDelete();
             $table->string('flag')->nullable();
             $table->timestamps();

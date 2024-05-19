@@ -48,8 +48,9 @@ class CountrySeeder extends Seeder
                     'iso3' => 'DZA',
                     'numcode' => '12',
                     'phonecode' => '213',
-                    'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'status' => 1,
+                    'currency_id'=>null,
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -75,7 +76,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '20',
                     'phonecode' => '376',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -89,7 +90,7 @@ class CountrySeeder extends Seeder
                     'phonecode' => '244',
                     'status' => 1,
                     'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -102,7 +103,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '660',
                     'phonecode' => '1264',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -115,7 +116,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -128,7 +129,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '28',
                     'phonecode' => '1268',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -141,7 +142,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '32',
                     'phonecode' => '54',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -154,7 +155,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '51',
                     'phonecode' => '374',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -167,7 +168,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '533',
                     'phonecode' => '297',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -180,7 +181,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '36',
                     'phonecode' => '61',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -193,7 +194,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '40',
                     'phonecode' => '43',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -206,7 +207,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '31',
                     'phonecode' => '994',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -219,7 +220,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '44',
                     'phonecode' => '1242',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -232,7 +233,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '48',
                     'phonecode' => '973',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -245,7 +246,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '50',
                     'phonecode' => '880',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -258,7 +259,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '52',
                     'phonecode' => '1246',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -271,7 +272,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '112',
                     'phonecode' => '375',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -284,7 +285,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '56',
                     'phonecode' => '32',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -297,7 +298,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '84',
                     'phonecode' => '501',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -310,7 +311,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '204',
                     'phonecode' => '229',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -323,7 +324,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '60',
                     'phonecode' => '1441',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -336,7 +337,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '64',
                     'phonecode' => '975',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -349,7 +350,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '68',
                     'phonecode' => '591',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -362,7 +363,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '70',
                     'phonecode' => '387',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -375,7 +376,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '72',
                     'phonecode' => '267',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -388,7 +389,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -401,7 +402,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '76',
                     'phonecode' => '55',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -414,7 +415,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '246',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -427,7 +428,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '96',
                     'phonecode' => '673',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -440,7 +441,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '100',
                     'phonecode' => '359',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -453,7 +454,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '854',
                     'phonecode' => '226',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -466,7 +467,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '108',
                     'phonecode' => '257',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -479,7 +480,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '116',
                     'phonecode' => '855',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -492,6 +493,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '120',
                     'phonecode' => '237',
                     'status' => 1,'currency_id'=>1,
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -504,7 +506,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '124',
                     'phonecode' => '1',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -517,7 +519,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '132',
                     'phonecode' => '238',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -530,7 +532,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '136',
                     'phonecode' => '1345',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -543,7 +545,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '140',
                     'phonecode' => '236',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -556,7 +558,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '148',
                     'phonecode' => '235',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -569,7 +571,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '152',
                     'phonecode' => '56',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -582,7 +584,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '156',
                     'phonecode' => '86',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -595,7 +597,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '61',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -608,7 +610,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '672',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -621,7 +623,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '170',
                     'phonecode' => '57',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -634,7 +636,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '174',
                     'phonecode' => '269',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -647,7 +649,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '178',
                     'phonecode' => '242',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -660,7 +662,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '180',
                     'phonecode' => '242',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -673,7 +675,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '184',
                     'phonecode' => '682',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -686,7 +688,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '188',
                     'phonecode' => '506',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -699,7 +701,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '384',
                     'phonecode' => '225',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -712,7 +714,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '191',
                     'phonecode' => '385',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -725,7 +727,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '192',
                     'phonecode' => '53',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -738,7 +740,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '196',
                     'phonecode' => '357',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -751,7 +753,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '203',
                     'phonecode' => '420',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -764,7 +766,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '208',
                     'phonecode' => '45',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -777,7 +779,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '262',
                     'phonecode' => '253',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -790,7 +792,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '212',
                     'phonecode' => '1767',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -803,7 +805,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '214',
                     'phonecode' => '1809',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -816,7 +818,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '218',
                     'phonecode' => '593',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -829,7 +831,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '818',
                     'phonecode' => '20',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -842,7 +844,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '222',
                     'phonecode' => '503',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -855,7 +857,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '226',
                     'phonecode' => '240',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -868,7 +870,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '232',
                     'phonecode' => '291',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -881,7 +883,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '233',
                     'phonecode' => '372',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -894,7 +896,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '231',
                     'phonecode' => '251',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -907,7 +909,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '238',
                     'phonecode' => '500',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -920,7 +922,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '234',
                     'phonecode' => '298',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -933,7 +935,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '242',
                     'phonecode' => '679',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -946,7 +948,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '246',
                     'phonecode' => '358',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -959,7 +961,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '250',
                     'phonecode' => '33',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -972,7 +974,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '254',
                     'phonecode' => '594',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -985,7 +987,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '258',
                     'phonecode' => '689',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -998,7 +1000,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1011,7 +1013,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '266',
                     'phonecode' => '241',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1024,7 +1026,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '270',
                     'phonecode' => '220',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1037,7 +1039,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '268',
                     'phonecode' => '995',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1050,7 +1052,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '276',
                     'phonecode' => '49',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1063,7 +1065,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '288',
                     'phonecode' => '233',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1076,7 +1078,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '292',
                     'phonecode' => '350',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1089,7 +1091,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '300',
                     'phonecode' => '30',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1102,7 +1104,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '304',
                     'phonecode' => '299',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1115,7 +1117,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '308',
                     'phonecode' => '1473',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1128,7 +1130,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '312',
                     'phonecode' => '590',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1141,7 +1143,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '316',
                     'phonecode' => '1671',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1154,7 +1156,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '320',
                     'phonecode' => '502',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1167,7 +1169,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '324',
                     'phonecode' => '224',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1180,7 +1182,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '624',
                     'phonecode' => '245',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1193,7 +1195,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '328',
                     'phonecode' => '592',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1206,7 +1208,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '332',
                     'phonecode' => '509',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1219,7 +1221,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1232,7 +1234,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '336',
                     'phonecode' => '39',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1245,7 +1247,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '340',
                     'phonecode' => '504',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1258,7 +1260,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '344',
                     'phonecode' => '852',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1271,7 +1273,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '348',
                     'phonecode' => '36',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1284,7 +1286,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '352',
                     'phonecode' => '354',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1297,7 +1299,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '356',
                     'phonecode' => '91',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1310,7 +1312,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '360',
                     'phonecode' => '62',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1323,7 +1325,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '364',
                     'phonecode' => '98',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1336,7 +1338,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '368',
                     'phonecode' => '964',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1349,7 +1351,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '372',
                     'phonecode' => '353',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1362,7 +1364,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '376',
                     'phonecode' => '972',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1375,7 +1377,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '380',
                     'phonecode' => '39',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1388,7 +1390,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '388',
                     'phonecode' => '1876',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1401,7 +1403,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '392',
                     'phonecode' => '81',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1414,7 +1416,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '400',
                     'phonecode' => '962',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1427,7 +1429,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '398',
                     'phonecode' => '7',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1440,7 +1442,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '404',
                     'phonecode' => '254',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1453,7 +1455,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '296',
                     'phonecode' => '686',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1466,7 +1468,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '408',
                     'phonecode' => '850',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1479,7 +1481,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '410',
                     'phonecode' => '82',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1492,7 +1494,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '414',
                     'phonecode' => '965',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1505,7 +1507,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '417',
                     'phonecode' => '996',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1518,7 +1520,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '418',
                     'phonecode' => '856',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1531,7 +1533,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '428',
                     'phonecode' => '371',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1544,7 +1546,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '422',
                     'phonecode' => '961',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1557,7 +1559,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '426',
                     'phonecode' => '266',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1570,7 +1572,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '430',
                     'phonecode' => '231',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1583,7 +1585,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '434',
                     'phonecode' => '218',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1596,7 +1598,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '438',
                     'phonecode' => '423',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1609,7 +1611,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '440',
                     'phonecode' => '370',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1622,7 +1624,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '442',
                     'phonecode' => '352',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1635,7 +1637,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '446',
                     'phonecode' => '853',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1648,7 +1650,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '807',
                     'phonecode' => '389',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1661,7 +1663,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '450',
                     'phonecode' => '261',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1674,7 +1676,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '454',
                     'phonecode' => '265',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1687,7 +1689,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '458',
                     'phonecode' => '60',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1700,7 +1702,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '462',
                     'phonecode' => '960',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1713,7 +1715,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '466',
                     'phonecode' => '223',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1726,7 +1728,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '470',
                     'phonecode' => '356',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1739,7 +1741,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '584',
                     'phonecode' => '692',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1752,7 +1754,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '474',
                     'phonecode' => '596',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1765,7 +1767,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '478',
                     'phonecode' => '222',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1778,7 +1780,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '480',
                     'phonecode' => '230',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1791,7 +1793,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '269',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1804,7 +1806,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '484',
                     'phonecode' => '52',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1817,7 +1819,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '583',
                     'phonecode' => '691',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1830,7 +1832,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '498',
                     'phonecode' => '373',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1843,7 +1845,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '492',
                     'phonecode' => '377',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1856,7 +1858,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '496',
                     'phonecode' => '976',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1869,7 +1871,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '500',
                     'phonecode' => '1664',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1882,7 +1884,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '504',
                     'phonecode' => '212',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1895,7 +1897,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '508',
                     'phonecode' => '258',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1908,7 +1910,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '104',
                     'phonecode' => '95',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1921,7 +1923,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '516',
                     'phonecode' => '264',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1934,7 +1936,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '520',
                     'phonecode' => '674',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1947,7 +1949,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '524',
                     'phonecode' => '977',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1960,7 +1962,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '528',
                     'phonecode' => '31',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1973,7 +1975,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '530',
                     'phonecode' => '599',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1986,7 +1988,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '540',
                     'phonecode' => '687',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -1999,7 +2001,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '554',
                     'phonecode' => '64',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2012,7 +2014,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '558',
                     'phonecode' => '505',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2025,7 +2027,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '562',
                     'phonecode' => '227',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2038,7 +2040,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '566',
                     'phonecode' => '234',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2051,7 +2053,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '570',
                     'phonecode' => '683',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2064,7 +2066,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '574',
                     'phonecode' => '672',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2077,7 +2079,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '580',
                     'phonecode' => '1670',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2090,7 +2092,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '578',
                     'phonecode' => '47',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2103,7 +2105,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '512',
                     'phonecode' => '968',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2116,7 +2118,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '586',
                     'phonecode' => '92',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2129,7 +2131,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '585',
                     'phonecode' => '680',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2142,7 +2144,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '970',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2155,7 +2157,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '591',
                     'phonecode' => '507',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2168,7 +2170,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '598',
                     'phonecode' => '675',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2181,7 +2183,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '600',
                     'phonecode' => '595',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2194,7 +2196,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '604',
                     'phonecode' => '51',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2207,7 +2209,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '608',
                     'phonecode' => '63',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2220,7 +2222,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '612',
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2233,7 +2235,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '616',
                     'phonecode' => '48',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2246,7 +2248,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '620',
                     'phonecode' => '351',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2259,7 +2261,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '630',
                     'phonecode' => '1787',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2272,7 +2274,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '634',
                     'phonecode' => '974',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2285,7 +2287,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '638',
                     'phonecode' => '262',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2298,7 +2300,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '642',
                     'phonecode' => '40',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2311,7 +2313,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '643',
                     'phonecode' => '70',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2324,7 +2326,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '646',
                     'phonecode' => '250',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2337,7 +2339,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '654',
                     'phonecode' => '290',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2350,7 +2352,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '659',
                     'phonecode' => '1869',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2363,7 +2365,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '662',
                     'phonecode' => '1758',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2376,7 +2378,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '666',
                     'phonecode' => '508',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2389,7 +2391,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '670',
                     'phonecode' => '1784',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2402,7 +2404,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '882',
                     'phonecode' => '684',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2415,7 +2417,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '674',
                     'phonecode' => '378',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2428,7 +2430,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '678',
                     'phonecode' => '239',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2441,7 +2443,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '682',
                     'phonecode' => '966',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2454,7 +2456,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '686',
                     'phonecode' => '221',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2467,7 +2469,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '381',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2480,7 +2482,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '690',
                     'phonecode' => '248',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2493,7 +2495,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '694',
                     'phonecode' => '232',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2506,7 +2508,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '702',
                     'phonecode' => '65',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2519,7 +2521,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '703',
                     'phonecode' => '421',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2532,7 +2534,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '705',
                     'phonecode' => '386',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2545,7 +2547,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '90',
                     'phonecode' => '677',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2558,7 +2560,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '706',
                     'phonecode' => '252',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2571,7 +2573,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '710',
                     'phonecode' => '27',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2584,7 +2586,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '0',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2597,7 +2599,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '724',
                     'phonecode' => '34',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2610,7 +2612,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '144',
                     'phonecode' => '94',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2623,7 +2625,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '736',
                     'phonecode' => '249',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2636,7 +2638,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '740',
                     'phonecode' => '597',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2649,7 +2651,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '744',
                     'phonecode' => '47',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2662,7 +2664,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '748',
                     'phonecode' => '268',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2675,7 +2677,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '752',
                     'phonecode' => '46',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2688,7 +2690,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '756',
                     'phonecode' => '41',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2701,7 +2703,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '760',
                     'phonecode' => '963',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2714,7 +2716,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '158',
                     'phonecode' => '886',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2727,7 +2729,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '762',
                     'phonecode' => '992',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2740,7 +2742,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '834',
                     'phonecode' => '255',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2753,7 +2755,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '764',
                     'phonecode' => '66',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2766,7 +2768,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '670',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2779,7 +2781,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '768',
                     'phonecode' => '228',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2792,7 +2794,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '772',
                     'phonecode' => '690',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2805,7 +2807,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '776',
                     'phonecode' => '676',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2818,7 +2820,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '780',
                     'phonecode' => '1868',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2831,7 +2833,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '788',
                     'phonecode' => '216',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2844,7 +2846,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '792',
                     'phonecode' => '90',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2857,7 +2859,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '795',
                     'phonecode' => '7370',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2870,7 +2872,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '796',
                     'phonecode' => '1649',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2883,7 +2885,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '798',
                     'phonecode' => '688',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2896,7 +2898,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '800',
                     'phonecode' => '256',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2909,7 +2911,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '804',
                     'phonecode' => '380',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2922,7 +2924,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '784',
                     'phonecode' => '971',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2935,7 +2937,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '826',
                     'phonecode' => '44',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2948,7 +2950,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '840',
                     'phonecode' => '1',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2961,7 +2963,7 @@ class CountrySeeder extends Seeder
                     'numcode' => NULL,
                     'phonecode' => '1',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2974,7 +2976,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '858',
                     'phonecode' => '598',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -2987,7 +2989,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '860',
                     'phonecode' => '998',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3000,7 +3002,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '548',
                     'phonecode' => '678',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3013,7 +3015,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '862',
                     'phonecode' => '58',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3026,7 +3028,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '704',
                     'phonecode' => '84',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3039,7 +3041,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '92',
                     'phonecode' => '1284',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3052,7 +3054,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '850',
                     'phonecode' => '1340',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3065,7 +3067,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '876',
                     'phonecode' => '681',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3078,7 +3080,7 @@ class CountrySeeder extends Seeder
                     'numcode' => '732',
                     'phonecode' => '212',
                     'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3090,8 +3092,9 @@ class CountrySeeder extends Seeder
                     'iso3' => 'YEM',
                     'numcode' => '887',
                     'phonecode' => '967',
-                    'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'status' => 1,
+                    'currency_id'=>null,
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3103,8 +3106,9 @@ class CountrySeeder extends Seeder
                     'iso3' => 'ZMB',
                     'numcode' => '894',
                     'phonecode' => '260',
-                    'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'status' => 1,
+                    'currency_id'=>null,
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
@@ -3116,8 +3120,9 @@ class CountrySeeder extends Seeder
                     'iso3' => 'ZWE',
                     'numcode' => '716',
                     'phonecode' => '263',
-                    'status' => 1,'currency_id'=>null,
-                    'flag'=>"",
+                    'status' => 1,
+                    'currency_id'=>null,
+                    'flag'=>null,
                     'created_at' => date('Y-m-d H:i:s'),
                     'updated_at' => date('Y-m-d H:i:s')
                 ),
