@@ -2,3 +2,20 @@
     width: 280px !important;
     height: 100%;
 }
+.widget {
+    margin-bottom: 10px;
+    position: relative;
+    padding: var(--widget-padding-x, 30px);
+    background: white !important;
+    border-radius: 0px !important;
+}
+.modal {
+    z-index: 99;
+}
+.wp-block-tag-cloud a, .tagcloud a {
+    border: 1px solid !important;
+    width: 130px !important;
+}
+.pricing-card .global-btn {
+    border: 2px solid #000;
+}

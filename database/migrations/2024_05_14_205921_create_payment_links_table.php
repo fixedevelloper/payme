@@ -16,9 +16,10 @@ return new class extends Migration
             $table->double("amount")->default(0.0);
             $table->double("costs")->default(0.0);
             $table->string("mode");
-            $table->string("phone_sender");
-            $table->string("name_sender");
-            $table->string("email_sender");
+            $table->string("phone_sender")->nullable();
+            $table->string("name_sender")->nullable();
+            $table->string("email_sender")->nullable();
+            $table->string("code")->nullable();
             $table->foreignId('account_id')->nullable()->constrained("users",'id')->nullOnDelete();
             $table->foreignId('country_id')->nullable()->constrained()->nullOnDelete();
             $table->timestamps();

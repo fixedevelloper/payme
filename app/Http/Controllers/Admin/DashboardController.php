@@ -8,6 +8,7 @@ use App\Helpers\UploadableTrait;
 use App\Http\Controllers\Controller;
 use App\Models\Country;
 use App\Models\CryptoMonaire;
+use App\Models\Currency;
 use App\Models\PaymentOperator;
 use App\Models\Trading;
 use App\Models\Wallet;
@@ -36,9 +37,33 @@ class DashboardController extends Controller
         } else {
             $countries = new Country();
         }
-        $countries = $countries->orderBy('name')->paginate(20);
+        $countries = $countries->orderByDesc('status')->orderBy('name')->paginate(20);
 
         return view('back.countries',[
+            'items'=>$countries
+        ]);
+    }
+    public function currencies(Request $request)
+    {
+        $search = $request->search;
+        if ($request->method()=="POST"){
+            $currency=new Currency();
+            $currency->name=$request->name;
+            $currency->code=$request->code;
+            $currency->symbol=$request->symbol;
+            $currency->exchange=$request->exchange;
+            $currency->save();
+        }
+        if ($request->has('search')) {
+            $countries = Currency::query()->where('name', 'like', "%$search%")
+                ->orWhere('iso', 'like', "%$search%");
+            $query_param = ['search' => $request['search']];
+        } else {
+            $countries = new Currency();
+        }
+        $countries = $countries->orderBy('name')->paginate(20);
+
+        return view('back.currencies',[
             'items'=>$countries
         ]);
     }
@@ -81,6 +106,18 @@ class DashboardController extends Controller
         return view('back.country_operator',[
             'country'=>$country,
             'operators'=>$operators
+        ]);
+    }
+    public function country_add_currency(Request $request,$id)
+    {
+        if ($request->method()=="POST"){
+            $country=Country::query()->find($request->country_id);
+            $country->currency_id=$id;
+            $country->save();
+        }
+        return view('back.add_country_currency', [
+            "countries"=>Country::query()->where(['currency_id'=>$id])->get(),
+            'alls'=>Country::all(),
         ]);
     }
     public function cryptos(Request $request)

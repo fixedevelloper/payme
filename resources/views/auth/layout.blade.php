@@ -24,11 +24,10 @@
 <div class="authincation h-100">
     <div class="container h-100">
         <div class="row justify-content-center h-100 align-items-center">
-            <div class="col-md-6">
+
                 <div class="authincation-content">
             @include('errors-and-messages')
             @yield('content')
-        </div>
     </div>
 </div>
     </div>

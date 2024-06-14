@@ -83,7 +83,6 @@
     var configs={
         routes:{
             index: "{{\Illuminate\Support\Facades\URL::to('/')}}",
-            exchange_modal: "{{\Illuminate\Support\Facades\URL::route('back.exchange_modal')}}",
         }
     }
 </script>

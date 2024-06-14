@@ -2,7 +2,7 @@
             Nav header start
         ***********************************-->
 <div class="nav-header">
-    <a href="{!! route('back.dashboard') !!}" class="brand-logo">
+    <a href="{!! route('admin.bc_dashboard') !!}" class="brand-logo">
         <img src="{!! asset('site/img/logo.png') !!}" alt="{!! config('app.name') !!}" width="150">
 
     </a>

@@ -35,7 +35,7 @@
                                 @foreach($items as $item)
                                     <tr>
                                         <td><strong>{!! $loop->index+1 !!}</strong></td>
-                                        <td><img src="{!! asset("storage/".$item->flag)  !!}" width="40"></td>
+                                        <td><img src="{!! asset("".$item->flag)  !!}" width="40"></td>
                                         <td>{!! $item->name !!}</td>
                                         <td>{!! $item->phonecode !!}</td>
                                         <td>{!! $item->iso !!}</td>

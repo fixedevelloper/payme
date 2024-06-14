@@ -4,7 +4,7 @@
 <div class="deznav">
     <div class="deznav-scroll">
         <ul class="metismenu" id="menu">
-            <li><a href="{!! route('back.dashboard') !!}" class="ai-icon" aria-expanded="false">
+            <li><a href="{!! route('admin.bc_dashboard') !!}" class="ai-icon" aria-expanded="false">
                     <i class="flaticon-381-networking"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
@@ -25,6 +25,16 @@
             <li><a href="{!! route('admin.bc_countries') !!}" class="ai-icon" aria-expanded="false">
                     <i class="flaticon-381-flag"></i>
                     <span class="nav-text">Countries</span>
+                </a>
+            </li>
+            <li><a href="{!! route('admin.bc_currencies') !!}" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-shuffle"></i>
+                    <span class="nav-text">Currencies</span>
+                </a>
+            </li>
+            <li><a href="{!! route('admin.bc_banners') !!}" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-id-card-5"></i>
+                    <span class="nav-text">Banners</span>
                 </a>
             </li>
             <li><a href="#" class="ai-icon" aria-expanded="false">

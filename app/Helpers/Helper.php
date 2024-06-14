@@ -20,6 +20,8 @@ class Helper
     const PROCESSING="PROCESSING";
     const CONFIRMED="CONFIRMED";
     const per_page=10;
+    const country_zone_cfa=["ci","cm","sn"];
+    const country_zone_euro=["fr","de","be","es","it"];
     public static function str_slug($text){
         return strtolower(str_ireplace(" ","_",$text)) ;
     }
@@ -58,6 +60,16 @@ class Helper
         $tabs=['1','2','3','4','5','6','7','8','9','0'];
         $strong=date("ymds");
         for ($i = 1; $i <= 15; $i++) {
+            $strong .= $tabs[rand(0, count($tabs) - 1)];
+        }
+        return $strong;
+    }
+    public static function generatenumber24()
+    {
+        $tabs=['1','2','3','4','5','6','7','8','9','0','a','b','c','d',
+            'e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','z'];
+        $strong=date("ymds");
+        for ($i = 1; $i <= 60; $i++) {
             $strong .= $tabs[rand(0, count($tabs) - 1)];
         }
         return $strong;

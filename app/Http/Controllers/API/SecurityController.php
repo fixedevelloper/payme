@@ -16,6 +16,7 @@ class SecurityController extends BaseController
         $validator = Validator::make($request->all(), [
             'phone' => 'required|string',
             'password' => 'required|string',
+            'country_id' => 'required',
         ]);
         if ($validator->fails()) {
             return $this->sendError($validator, 'User login failed.');
@@ -23,6 +24,9 @@ class SecurityController extends BaseController
         $user=User::query()->firstWhere(['phone'=>$request->phone]);
         //availability check
         if (!isset($user)) {
+            return $this->sendError("Phone not register", 'User login failed.');
+        }
+        if ($user->country_id != $request->country_id) {
             return $this->sendError("Phone not register", 'User login failed.');
         }
         if ($user->user_type != User::CUSTOMER_TYPE && $user->user_type != User::DRIVER_TYPE
@@ -54,6 +58,7 @@ class SecurityController extends BaseController
             'photo' => '',
             'phone' => 'required|min:5|max:20|unique:users',
             'password' => 'required',
+            'country_id' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -65,7 +70,7 @@ class SecurityController extends BaseController
             $driver->phone = $request->phone;
             $driver->last_name = $request->last_name;
             $driver->email = $request->email;
-            $driver->country_id = 37;
+            $driver->country_id = $request->country_id;
             if ($request->has('date_born')) {
                 $driver->date_born = $request->date_born;
             }
@@ -97,7 +102,6 @@ class SecurityController extends BaseController
             if ($request->has('document_type')) {
                 $driver->document_type = $request->document_type;
             }
-
             $driver->save();
             $driver->update(['last_active_at' => now()]);
             $success['token'] = $driver->createToken('ApiToken')->plainTextToken;
@@ -130,5 +134,40 @@ class SecurityController extends BaseController
             'country_id'=>$customer->country_id,
             'postal_code'=>$customer->postal_code,
         ], 'request successfully.');
+    }
+    function searchAccount(Request $request){
+        $key_=$request->get('key');
+        $key = explode(' ', $key_);
+        logger($key);
+        $agents = User::query()->where(function ($q) use ($key) {
+            foreach ($key as $value) {
+                $q->orWhere('first_name', 'like', "%{$value}%")
+                    ->orWhere('last_name', 'like', "%{$value}%")
+                    ->orWhere('phone', 'like', "%{$value}%")
+                    ->orWhere('email', 'like', "%{$value}%");
+            }
+        });
+        $lists=[];
+        foreach ($agents->get() as $customer){
+            $lists[]=[
+                'id'=>$customer->id,
+                'first_name'=>$customer->first_name,
+                'last_name'=>$customer->last_name,
+                'phone'=>$customer->phone,
+                'email'=>$customer->email,
+                'date_born'=>$customer->date_born,
+                'photo'=>$customer->photo,
+                'facebook'=>$customer->facebook,
+                'youtube'=>$customer->youtube,
+                'balance'=>$customer->balance,
+                'phone_verified'=>$customer->phone_verified,
+                'email_verified'=>$customer->email_verified,
+                'country_id'=>$customer->country_id,
+                'country_name'=>$customer->country->name,
+                'country_code'=>$customer->country->code,
+                'postal_code'=>$customer->postal_code,
+            ];
+        }
+        return $this->sendResponse($lists, 'request successfully.');
     }
 }

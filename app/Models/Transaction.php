@@ -12,6 +12,10 @@ class Transaction extends Model
     {
         return $this->belongsTo(User::class,'sender_id','id');
     }
+    public function beneficiary()
+    {
+        return $this->belongsTo(Beneficiary::class,'beneficiary_id','id');
+    }
     public function receiver()
     {
         return $this->belongsTo(User::class,'receiver_id','id');

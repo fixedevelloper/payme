@@ -19,12 +19,10 @@ return new class extends Migration
             $table->string("mode")->comment("mobile_money,bank,wallet");
             $table->string("status")->default("PENDING");
             $table->string("transaction_type")->comment("withdraw,deposit,transfer");
-            $table->string("phone_withdraw")->nullable();
-            $table->string("name_withdraw")->nullable();
-            $table->string("email_withdraw")->nullable();
             $table->foreignId('sender_id')->nullable()->constrained("users",'id')->nullOnDelete();
-            $table->foreignId('receiver_id')->nullable()->constrained("users",'id')->nullOnDelete();
+          //  $table->foreignId('receiver_id')->nullable()->constrained("users",'id')->nullOnDelete();
             $table->foreignId('country_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('beneficiary_id')->nullable()->constrained()->nullOnDelete();
             $table->foreignId('payment_operator_id')->nullable()->constrained()->nullOnDelete();
             $table->timestamps();
         });

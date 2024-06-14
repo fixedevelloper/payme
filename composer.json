@@ -8,6 +8,7 @@
         "php": "^8.1",
         "ext-json": "*",
         "flutterwavedev/flutterwave-v3": "dev-master",
+        "globalcitizen/php-iban": "dev-master",
         "guzzlehttp/guzzle": "^7.2",
         "jsdecena/baserepo": "dev-master",
         "kalnoy/nestedset": "v6.x-dev",

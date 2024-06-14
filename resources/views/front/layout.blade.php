@@ -63,7 +63,7 @@
     <div class="content-body">
             @yield('content')
     </div>
-@include('front._partials._footer')
+{{--@include('front._partials._footer')--}}
 <!-- Scroll To Top -->
 <div class="scroll-top">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -92,6 +92,14 @@ All Js File
 <!-- Isotope Filter -->
 <script src="{!! asset('site/js/imagesloaded.pkgd.min.js') !!}"></script>
 <script src="{!! asset('site/js/isotope.pkgd.min.js') !!}"></script>
+<script>
+    var configs={
+        routes:{
+            index: "{{\Illuminate\Support\Facades\URL::to('/')}}",
+            home_change_ajax: "{{\Illuminate\Support\Facades\URL::route('home_change_ajax')}}",
+        }
+    }
+</script>
 @stack("js")
 <!-- Main Js File -->
 <script src="{!! asset('site/js/main.js') !!}"></script>

@@ -1,7 +1,7 @@
 <?php
 
 
-use App\Http\Controllers\Admin\TradeController;
+use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Admin\TransactionController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\DashboardController;
@@ -25,8 +25,18 @@ use Illuminate\Support\Facades\Route;
 */
 Route::match(["POST", "GET"], '/', [FrontController::class, 'home'])
     ->name('home');
+Route::match(["POST", "GET"], '/success', [FrontController::class, 'success'])
+    ->name('success');
+Route::match(["POST", "GET"], '/home_change_ajax', [FrontController::class, 'home_change_ajax'])
+    ->name('home_change_ajax');
+Route::match(["POST", "GET"], '/echec', [FrontController::class, 'echec'])
+    ->name('echec');
+Route::match(["POST", "GET"], '/waiting', [FrontController::class, 'waiting'])
+    ->name('waiting');
 Route::match(["POST", "GET"], '/join/{id}', [FrontController::class, 'join_us'])
     ->name('join_us');
+Route::match(["POST", "GET"], '/link/{code}', [FrontController::class, 'payment_link'])
+    ->name('payment_link');
 Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
     Route::match(["POST", "GET"], '/signin', [AuthController::class, 'signin'])
         ->name('signin');
@@ -44,26 +54,15 @@ Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
         ->name('lock');
 });
 
-Route::group(['prefix' => 'back', 'as' => 'back.','middleware' => ['isCustomer']], function () {
-    Route::match(["POST", "GET"], '/dashboard', [FrontController::class, 'dashboard'])
-        ->name('dashboard');
-
-    Route::match(["POST", "GET"], '/sell_modal', [SettingController::class, 'sell_modal'])
-        ->name('sell_modal');
-    Route::match(["POST", "GET"], '/buy_modal', [SettingController::class, 'buy_modal'])
-        ->name('buy_modal');
-    Route::match(["POST", "GET"], '/exchange_modal', [SettingController::class, 'exchange_modal'])
-        ->name('exchange_modal');
-    Route::match(["POST", "GET"], '/withdraw', [PaymentController::class, 'withDrawModal'])
-        ->name('withdraw');
-    Route::match(["POST", "GET"], '/deposit', [PaymentController::class, 'deposit'])
-        ->name('deposit');
-});
 
 Route::group(['prefix' => 'bk_admin', 'as' => 'admin.','middleware' => ['isAdmin']],function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('bc_dashboard');
     Route::get('/countries',[DashboardController::class,'countries'])
         ->name('bc_countries');
+    Route::match(["POST", "GET"],'/currencies',[DashboardController::class,'currencies'])
+        ->name('bc_currencies');
+    Route::match(["POST", "GET"],'/country_add_currency/{id}',[DashboardController::class,'country_add_currency'])
+        ->name('bc_country_add_currency');
     Route::match(["POST", "GET"], '/countries/{id}',[DashboardController::class,'country_edit'])
         ->name('bc_country_id');
     Route::match(["POST", "GET"], '/countries/{id}/operators',[DashboardController::class,'country_operator'])
@@ -78,7 +77,10 @@ Route::group(['prefix' => 'bk_admin', 'as' => 'admin.','middleware' => ['isAdmin
         ->name('bc_cryptos');
     Route::get('/activeOrDesactive/{id}',[DashboardController::class,'activeOrDesactive'])
         ->name('bc_activeOrDesactive');
-
+    Route::match(["POST", "GET"],'/banners',[BannerController::class,'index'])
+        ->name('bc_banners');
+    Route::match(["POST", "GET"],'/banners/create',[BannerController::class,'create'])
+        ->name('bc_banner_create');
     Route::match(["POST", "GET"],'/profile',[DashboardController::class,'profil'])
         ->name('bc_profil');
 });
